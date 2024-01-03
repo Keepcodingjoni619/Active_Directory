@@ -25,11 +25,29 @@
 
 ![AD_04](https://github.com/Keepcodingjoni619/Active_Directory/assets/82996237/6bbdc6ef-2e67-41c6-ab64-3a1fae82b667)
 
+<h3>Install Active Directory</h3>
+<ol>
+  <li>Login to DC-1 and install Active Directory Domain Services</li>
+  <li>Promote as a DC: Setup a new forest as mydomain.com</li>
+  <li>Restart and then log back into DC-1 as user: mydomain.com\labuser</li>
+</ol>
+
 ![AD_05](https://github.com/Keepcodingjoni619/Active_Directory/assets/82996237/aeedd7c1-779e-4e98-ab06-ce81b7d1ace6)
 
 ![AD_06](https://github.com/Keepcodingjoni619/Active_Directory/assets/82996237/9cb6a437-9f34-4ae5-b789-4ca316595e0e)
 
 ![AD_07](https://github.com/Keepcodingjoni619/Active_Directory/assets/82996237/7539d0e7-ad1a-4512-829c-e076f34917fa)
+
+<h3>Create an Admin and Normal User Account in AD</h3>
+<ol>
+  <li>In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”</li>
+  <li>Create a new OU named “_ADMINS”</li>
+  <li>Create a new employee named “Will Ferrell” (same password) with the username of “will_admin”</li>
+  <li>Add will_admin to the “Domain Admins” Security Group
+  <li>Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\will_admin”</li>
+  <li>User will_admin will remain as your admin account </li>
+
+</ol>
 
 ![AD_08](https://github.com/Keepcodingjoni619/Active_Directory/assets/82996237/1c29a7c6-5979-4f52-9e37-53d8ed0951df)
 
