@@ -1,6 +1,15 @@
 # Active_Directory
 <p>Active Directory is a built in software that maintains Microsoft by centrally managing user accounts in a single place (Accounts, Passwords, Permissions). It helps with managing devices and control access to resources.</p>
 
+<h3>Setup Resources in Azure</h3>
+<ol>
+  <li>Create the Domain Controller VM (Windows Server 2022) named “DC-1”</li>
+  <li>Set Domain Controller’s NIC Private IP address to be static</li>
+  <li>Create the Client VM (Windows 10) named “Client-1”</li>
+  <li>Ensure that both VMs are in the same Vnet</li>
+  
+</ol>
+
 ![AD_01](https://github.com/Keepcodingjoni619/Active_Directory/assets/82996237/013561bc-c3ae-41d5-a755-e3cf4099bc29)
 
 ![AD_02](https://github.com/Keepcodingjoni619/Active_Directory/assets/82996237/f9b55c49-e85f-4b7f-b60c-340e046eb27d)
