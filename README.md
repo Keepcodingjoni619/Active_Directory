@@ -14,6 +14,13 @@
 
 ![AD_02](https://github.com/Keepcodingjoni619/Active_Directory/assets/82996237/f9b55c49-e85f-4b7f-b60c-340e046eb27d)
 
+<h3>Ensure Connectivity between the client and Domain Controller</h3>
+<ol>
+ <li>Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t </li>
+ <li>Login to the Domain Controller and enable ICMPv4 in on the local windows Firewall</li>
+ <li>Check back at Client-1 to see the ping succeed</li>
+</ol>
+
 ![AD_03](https://github.com/Keepcodingjoni619/Active_Directory/assets/82996237/180802a4-1ad9-4aff-9b71-90ab991c9fc5)
 
 ![AD_04](https://github.com/Keepcodingjoni619/Active_Directory/assets/82996237/6bbdc6ef-2e67-41c6-ab64-3a1fae82b667)
